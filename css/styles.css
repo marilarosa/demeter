@@ -95,10 +95,11 @@ height:85px;
 border-color: #000;
 border: solid 1px;
 margin-left:22px;
-border-radius:5px;}
+border-radius:5px;
+float:left;}
 
 .text_date_small{font-size: 20px;
-	color: #7957a0;
+	color: #000;
 	font-family: "Museo Sans 500";
 	text-transform:uppercase;}
 
