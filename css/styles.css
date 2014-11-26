@@ -51,17 +51,19 @@ src: url(../font/MuseoSans_500.otf);
 font-style:normal; }
 
 
-/* header */
+/************************** header *******************************/
+
+.logo{width:80%; margin: 0 0 0 12.5em;}
 
 .line{ box-sizing:content-box;
 background-color:#000;
 height:2px;
 margin: 2em 13em 1em 13em;}
 
-.wrapper{ width:80%; margin:10% 10% 10% 10%;}
+.wrapper{ width:80%; margin:3% 10% 10% 10%;}
 
 
-/* icons date time info */
+/****************** icons date time info ***********************/
 
 .icons{width:50%; margin: 3em 8em 1em 8em; padding-left:10em; padding-right:10em;}
 
@@ -80,7 +82,7 @@ margin: 2em 13em 1em 13em;}
 	text-transform:uppercase;}
 	
 	
-	/* DATE */
+	/************************* DATE **********************/
 
 .date_box{ 
 height:14em; 
@@ -138,7 +140,7 @@ background-color:#999999;}
 	text-transform:uppercase;}
 
 
-/* TIME */
+/**************** TIME ********************/
 
 .time_box{height:14em; 
 border-color:#f2f2f2;
@@ -180,7 +182,7 @@ background-color:#999999;}
 	text-decoration:underline;
 	text-transform:uppercase;}
     
-	/* INFO */
+	/************ INFO **************/
 	
 	.info_box{height:14em; 
 border-color:#f2f2f2;
@@ -223,13 +225,21 @@ color: #000;
 font-family: "Museo Sans 500";
 text-indent:10px;}
 
-	.save{
-border-color: #ff6700;
-border: thin 2px;
-border-radius:5;
-float:left;
-text-align:left;
-width:200px;
-height:45px;
+.button_save{ 
+border:solid #ff6b01; 
+border-radius:5px; 
+width:260px;
+height:35px;
+text-indent:10px;
+background-image:url(../img/ic_next.png);
+background-origin:content-box;
+background-position: right;
+background-repeat:no-repeat;
+padding:0.8em 0 0 0.5em;
+
+}
+
+.text_button_save{
 font-family: "Museo Sans 500";
-text-indent:10px;}
+color:#ff6b01;
+font-size:20px;}
