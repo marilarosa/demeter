@@ -53,21 +53,22 @@ font-style:normal; }
 
 /************************** header *******************************/
 
-.logo{width:80%; margin: 0 0 0 12.5em;}
+.logo{width:80%; margin: 0 20% 0 20%;}
 
 .line{ box-sizing:content-box;
 background-color:#000;
 height:2px;
-margin: 2em 13em 1em 13em;}
+margin: 0 20% 0 20%;
+}
 
 .wrapper{ width:80%; margin:3% 10% 10% 10%;}
 
 
 /****************** icons date time info ***********************/
 
-.icons{width:50%; margin: 3em 8em 1em 8em; padding-left:10em; padding-right:10em;}
+.icons{width:100%; margin: 2% 25% 0 20%; }
 
-.icons_box{float:left; width:7em; margin-left:2em; margin-right:2em;}
+.icons_box{float:left; width:72px; margin-left:10%; height:120px; margin-bottom:2%;}
 
 .title_icon_on{
 	font-size: 20px;
@@ -84,16 +85,16 @@ margin: 2em 13em 1em 13em;}
 	
 	/************************* DATE **********************/
 
-.date_box{ 
-height:14em; 
+.date_box{  
 border-color:#f2f2f2;
 border-style:solid;
 background-color: #FFF;
 box-sizing:content-box; 
 width:60%; 
-margin: 1em 13em 1em 13em;}
+margin: 0 20% 0 20%;
+position: relative;}
 
-.container_date_box{width:100%; margin: 1em 0 1em 0; padding-left:1em;}
+.container_date_box{width:100%; padding-left:15%; padding-right:15%; padding-bottom:3%;}
 
 .date_box_small{
 	width:105px;
@@ -103,8 +104,8 @@ border: solid 1px;
 border-radius:5px;
 float:left;
 text-align:center;
-margin: 0.5em 0.5em 0.5em 0.5em;
-padding:1em 0 0 0;}
+margin: 0 1% 0 1%;
+}
 
 .date_box_small:hover {
 width:105px;
@@ -114,8 +115,7 @@ border: solid 1px;
 border-radius:5px;
 float:left;
 text-align:center;
-margin: 0.5em 0.5em 0.5em 0.5em;
-padding:1em 0 0 0;
+margin: 0 1% 0 1%;
 background-color:#999999;}
 
 .text_date_small{font-size: 20px;
@@ -142,15 +142,16 @@ background-color:#999999;}
 
 /**************** TIME ********************/
 
-.time_box{height:14em; 
+.time_box{ 
 border-color:#f2f2f2;
 border-style:solid;
 background-color: #FFF;
 box-sizing:content-box; 
 width:60%; 
-margin: 1em 13em 1em 13em;}
+margin: 0 20% 0 20%;
+}
 
-.container_time_box{width:100%; margin: 1em 0 1em 0; padding-left:1em;}
+.container_time_box{width:100%; padding-left:2%; padding-bottom:3%; padding-top:1%;}
 
 .time_box_small{
 	width:110px;
@@ -160,8 +161,8 @@ border: solid 1px;
 border-radius:0;
 float:left;
 text-align:center;
-margin: 0.4em 0.2em 0.2em 0.2em;
-padding:0.5em 0 0 0;
+margin: 1% 1% 1% 1%;
+padding:1% 0 0 0;
 }
 
 .time_box_small:hover{
@@ -172,8 +173,8 @@ border: solid 1px;
 border-radius:0;
 float:left;
 text-align:center;
-margin: 0.4em 0.2em 0.2em 0.2em;
-padding:0.5em 0 0 0;
+margin: 1% 1% 1% 1%;
+padding:1% 0 0 0;
 background-color:#999999;}
 
 .timezone {font-size: 12px;
@@ -184,16 +185,16 @@ background-color:#999999;}
     
 	/************ INFO **************/
 	
-	.info_box{height:14em; 
+	.info_box{ 
 border-color:#f2f2f2;
 border-style:solid;
 background-color: #FFF;
 box-sizing:content-box; 
 width:60%; 
-margin: 1em 13em 0 13em;
-height:18em;}
+margin: 0 20% 0 20%;
+}
 
-	.container_info_box{width:100%; margin: 1em 0 1em 0; padding-left:1em;}
+	.container_info_box{width:100%; padding-left:2%; padding-bottom:3%; padding-top:1%;}
 	
 	input{
 border-color: #000;
@@ -202,10 +203,10 @@ margin-left:18px;
 border-radius:0;
 float:left;
 text-align:left;
-padding-top:0.5em;
-margin-top:1em;
-width:43em;
-height:2em;
+padding-top:1%;
+margin-top:1%;
+width:90%;
+height:30px;
 color: #000;
 font-family: "Museo Sans 500";
 text-indent:10px;}
@@ -217,10 +218,10 @@ margin-left:18px;
 border-radius:0;
 float:left;
 text-align:left;
-padding-top:0.5em;
-margin-top:1em;
-width:43em;
-height:5em;
+padding-top:1%;
+margin-top:1%;
+width:90%;
+height:50px;
 color: #000;
 font-family: "Museo Sans 500";
 text-indent:10px;}
